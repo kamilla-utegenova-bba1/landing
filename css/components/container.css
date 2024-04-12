@@ -1,0 +1,37 @@
+.container {
+    width: 900px;
+    margin: 40px auto;
+    background-color: transparent;
+}
+
+.container img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1050px) {
+    .container {
+        width: 700px;
+    }
+
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+
+ 
+
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+
+@media (max-width: 900px) {
+    .container {
+        width: 700px;
+    }
+
+   
